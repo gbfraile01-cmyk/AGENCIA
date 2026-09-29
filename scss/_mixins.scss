@@ -1,0 +1,41 @@
+// ========================================
+// MIXINS DO PROJETO
+// Agência Criativa Web
+// ========================================
+
+@use "variaveis" as *;
+
+
+// ========================================
+// MIXIN PARA ESPAÇAMENTO
+// ========================================
+
+@mixin espacamento-secao {
+    padding: $espacamento-secao $espacamento-horizontal;
+}
+
+
+// ========================================
+// MIXIN PARA EFEITO HOVER
+// ========================================
+
+@mixin efeito-hover($movimento: -4px) {
+    transition: $transicao-padrao;
+
+    &:hover {
+        transform: translateY($movimento);
+    }
+}
+
+
+// ========================================
+// MIXIN PARA BOTÃO
+// ========================================
+
+@mixin botao-base {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: $transicao-padrao;
+}

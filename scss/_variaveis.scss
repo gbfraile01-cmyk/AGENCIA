@@ -1,0 +1,49 @@
+// ========================================
+// VARIÁVEIS DO PROJETO
+// Agência Criativa Web
+// ========================================
+
+// Cores
+
+$cor-primaria: #2563EB;
+$cor-hover: #3B82F6;
+$cor-fundo: #0F172A;
+$cor-card: #1E293B;
+$cor-texto: #CBD5E1;
+$cor-branca: #FFFFFF;
+
+
+// Tipografia
+
+$fonte-principal: "Poppins", sans-serif;
+
+
+// Tamanhos
+
+$tamanho-titulo-home: 4rem;
+$tamanho-titulo-secao: 2.8rem;
+$tamanho-titulo-card: 1.5rem;
+
+
+// Espaçamentos
+
+$espacamento-secao: 100px;
+$espacamento-horizontal: 8%;
+$espacamento-card: 35px;
+
+
+// Bordas
+
+$raio-card: 20px;
+$raio-botao: 50px;
+$raio-input: 12px;
+
+
+// Transições
+
+$transicao-padrao: 0.3s;
+
+
+// Operador SASS para cálculo proporcional
+
+$espacamento-reduzido: $espacamento-secao * 0.8;

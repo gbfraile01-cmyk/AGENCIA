@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Creative Web Agency</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <!-- CSS compilado pelo SASS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -34,6 +37,7 @@
         </nav>
 
     </header>
+
 
     <!-- ==========================================
         HOME
@@ -65,14 +69,17 @@
 
         </div>
 
-        <div class="home-imagens">
+        <div class="home-imagem">
 
-            <img src="imagens/hero.jpg"
-                alt="Equipe de criação trabalhando">
+            <img
+                src="imagens/hero.jpg"
+                alt="Equipe de criação trabalhando"
+            >
 
         </div>
 
     </section>
+
 
     <!-- ==========================================
         SOBRE
@@ -80,10 +87,12 @@
 
     <section id="sobre">
 
-        <div class="sobre-imagens">
+        <div class="sobre-imagem">
 
-            <img src="imagens/transferir.jpg"
-                alt="Equipe da Agência Criativa">
+            <img
+                src="imagens/transferir.jpg"
+                alt="Equipe da Agência Criativa"
+            >
 
         </div>
 
@@ -91,7 +100,9 @@
 
             <span>Sobre Nós</span>
 
-            <h2>Conheça nossa agência</h2>
+            <h2>
+                Conheça nossa agência
+            </h2>
 
             <p>
                 Somos uma agência de desenvolvimento web dedicada a criar soluções
@@ -104,6 +115,7 @@
 
     </section>
 
+
     <!-- ==========================================
         SERVIÇOS
     =========================================== -->
@@ -114,7 +126,9 @@
 
             <span>Nossos Serviços</span>
 
-            <h2>Soluções completas para o seu negócio</h2>
+            <h2>
+                Soluções completas para o seu negócio
+            </h2>
 
             <p>
                 Desenvolvemos soluções criativas para fortalecer sua marca
@@ -126,42 +140,54 @@
         <div class="servicos-grid">
 
             <div class="card-servico">
+
                 <h3>🎨 Design Gráfico</h3>
 
                 <p>
                     Criação de materiais visuais modernos para fortalecer
                     sua identidade visual.
                 </p>
+
             </div>
 
+
             <div class="card-servico">
+
                 <h3>💻 Desenvolvimento Web</h3>
 
                 <p>
                     Sites modernos, rápidos e totalmente responsivos.
                 </p>
+
             </div>
 
+
             <div class="card-servico">
+
                 <h3>🚀 Branding</h3>
 
                 <p>
                     Construção de marcas fortes e memoráveis.
                 </p>
+
             </div>
 
+
             <div class="card-servico">
+
                 <h3>📱 UI / UX Design</h3>
 
                 <p>
                     Interfaces intuitivas focadas na melhor experiência
                     para o usuário.
                 </p>
+
             </div>
 
         </div>
 
     </section>
+
 
     <!-- ==========================================
         DEPOIMENTOS
@@ -173,7 +199,9 @@
 
             <span>Depoimentos</span>
 
-            <h2>O que nossos clientes dizem</h2>
+            <h2>
+                O que nossos clientes dizem
+            </h2>
 
             <p>
                 A satisfação dos nossos clientes é o que nos motiva
@@ -192,11 +220,16 @@
                     online."
                 </p>
 
-                <h4>Gabriel Fraile</h4>
+                <h4>
+                    Gabriel Fraile
+                </h4>
 
-                <span>CEO - Tech Solutions</span>
+                <span>
+                    CEO - Tech Solutions
+                </span>
 
             </div>
+
 
             <div class="card-depoimento">
 
@@ -206,11 +239,16 @@
                     qualidade."
                 </p>
 
-                <h4>Mariana Costa</h4>
+                <h4>
+                    Mariana Costa
+                </h4>
 
-                <span>Diretora - Studio M</span>
+                <span>
+                    Diretora - Studio M
+                </span>
 
             </div>
+
 
             <div class="card-depoimento">
 
@@ -219,15 +257,20 @@
                     a Creative Web para qualquer empresa que queira crescer."
                 </p>
 
-                <h4>Carlos Oliveira</h4>
+                <h4>
+                    Carlos Oliveira
+                </h4>
 
-                <span>Fundador - Nova Digital</span>
+                <span>
+                    Fundador - Nova Digital
+                </span>
 
             </div>
 
         </div>
 
     </section>
+
 
     <!-- ==========================================
         CONTATO
@@ -239,7 +282,9 @@
 
             <span>Contato</span>
 
-            <h2>Vamos conversar sobre seu projeto?</h2>
+            <h2>
+                Vamos conversar sobre seu projeto?
+            </h2>
 
             <p>
                 Entre em contato conosco e descubra como podemos
@@ -248,53 +293,63 @@
 
         </div>
 
+
         <div class="contato-container">
 
             <div class="informacoes-contato">
 
-                <h3>Fale Conosco</h3>
+                <h3>
+                    Fale Conosco
+                </h3>
 
-                <p>📍 São Paulo - SP</p>
+                <p>
+                    📍 São Paulo - SP
+                </p>
 
-                <p>📞 (11) 99999-9999</p>
+                <p>
+                    📞 (11) 99999-9999
+                </p>
 
-                <p>✉ contato@creativeweb.com</p>
+                <p>
+                    ✉ contato@creativeweb.com
+                </p>
 
             </div>
 
-            <form>
 
-                <form id="formulario">
+            <form id="formulario">
 
-            <input
-            type="text"
-            id="nome"
-            placeholder="Seu nome"
-             required>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Seu nome"
+                    required
+                >
 
-           <input
-             type="email"
-            id="email"
-            placeholder="Seu e-mail"
-             required>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Seu e-mail"
+                    required
+                >
 
-            <textarea
-             id="mensagem"
-            rows="6"
-            placeholder="Escreva sua mensagem..."
-            required></textarea>
+                <textarea
+                    id="mensagem"
+                    rows="6"
+                    placeholder="Escreva sua mensagem..."
+                    required
+                ></textarea>
 
-            <button type="submit">
-             Enviar Mensagem
-            </button>
-
-           </form>
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
 
             </form>
 
         </div>
 
     </section>
+
 
     <!-- ==========================================
         FOOTER
@@ -304,7 +359,9 @@
 
         <div class="footer-conteudo">
 
-            <h2>Creative Web Agency</h2>
+            <h2>
+                Creative Web Agency
+            </h2>
 
             <p>
                 Criando experiências digitais modernas para empresas
@@ -314,13 +371,9 @@
             <nav>
 
                 <a href="#home">Home</a>
-
                 <a href="#sobre">Sobre</a>
-
                 <a href="#servicos">Serviços</a>
-
                 <a href="#depoimentos">Depoimentos</a>
-
                 <a href="#contato">Contato</a>
 
             </nav>
